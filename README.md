@@ -36,7 +36,7 @@ RestWs : GET /v0.1/revolut/createAccount?fullName=[FULL_NAME]&initAmount=[INITIA
 `Example` : "[http://127.0.0.1:8888/v0.1/revolut/withdraw?iban=8913912968832801&amount=5.00](http://127.0.0.1:8888/v0.1/revolut/withdraw?iban=8913912968832801&amount=5.00)"
  `Result` : Account [id=3, name=[Ahmet Uygun], IBAN=8913912968832801, balance=50.00]
 
-**4- You can make EFT between to IBAN.**
+**4- You can make EFT between two IBAN.**
 RestWs : GET /v0.1/revolut/transfer?sender=[SENDER_IBAN]&receiver=[RECEIVER_IBAN]&amount=5.00
 
 `Example` : "[http://127.0.0.1:8888/v0.1/revolut/transfer?sender=8913912968832801&receiver=721630553043461&amount=5.00](http://127.0.0.1:8888/v0.1/revolut/transfer?sender=8913912968832801&receiver=721630553043461&amount=5.00)" 
