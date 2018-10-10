@@ -32,8 +32,9 @@ public class SitesResource {
     public Response createAccount(@Context UriInfo uriInfo) throws Exception{
 	
     	Account account = null;
-    	CreateAccountRequest createAccountRequest = UrlExtractor.exractCreateAccountRequest(uriInfo);
     	try {
+        	CreateAccountRequest createAccountRequest = UrlExtractor.exractCreateAccountRequest(uriInfo);
+
     		account  = AccountService.getInstance().createAccount(createAccountRequest);
              
 		} catch (Exception e) {
@@ -51,9 +52,10 @@ public class SitesResource {
     @Cache(maxAge=1800, mustRevalidate = false, noStore = false, proxyRevalidate = false, sMaxAge = 1800)
     public Response deposit(@Context UriInfo uriInfo) throws Throwable{
     	
-    	DepositRequest depositRequest = UrlExtractor.exractDepositRequest(uriInfo);
 
     	try {
+        	DepositRequest depositRequest = UrlExtractor.exractDepositRequest(uriInfo);
+
     		Account account = AccountService.getInstance().deposit(depositRequest);
             return Response.ok(account.toString()).type(MediaType.APPLICATION_JSON).build();
 
@@ -71,9 +73,10 @@ public class SitesResource {
     public Response withdraw(@Context UriInfo uriInfo) throws Throwable{
     	
     	
-    	WithdrawRequest withdrawRequest = UrlExtractor.exractWithdrawRequest(uriInfo);
 
     	try {
+        	WithdrawRequest withdrawRequest = UrlExtractor.exractWithdrawRequest(uriInfo);
+
     		Account account = AccountService.getInstance().withdraw(withdrawRequest);
             return Response.ok(account.toString()).type(MediaType.APPLICATION_JSON).build();
 
@@ -88,9 +91,10 @@ public class SitesResource {
     @Cache(maxAge=1800, mustRevalidate = false, noStore = false, proxyRevalidate = false, sMaxAge = 1800)
     public Response transfer(@Context UriInfo uriInfo) throws Throwable{
     	
-    	TransferRequest transferRequest = UrlExtractor.exractTransferRequest(uriInfo);
 
     	try {
+        	TransferRequest transferRequest = UrlExtractor.exractTransferRequest(uriInfo);
+
     		List<Account> account = AccountService.getInstance().transfer(transferRequest);
             return Response.ok(account.toString()).type(MediaType.APPLICATION_JSON).build();
 
