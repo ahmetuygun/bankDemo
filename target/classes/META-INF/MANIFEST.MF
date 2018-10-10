@@ -1,0 +1,56 @@
+Manifest-Version: 1.0
+Built-By: 1001600
+Class-Path: lib/resteasy-jaxrs-3.5.0.Final.jar lib/jboss-jaxrs-api_2.1
+ _spec-1.0.0.Final.jar lib/reactive-streams-1.0.1.jar lib/validation-a
+ pi-1.1.0.Final.jar lib/jboss-annotations-api_1.2_spec-1.0.0.Final.jar
+  lib/activation-1.1.1.jar lib/httpclient-4.5.4.jar lib/httpcore-4.4.7
+ .jar lib/commons-logging-1.2.jar lib/commons-codec-1.10.jar lib/commo
+ ns-io-2.5.jar lib/jcip-annotations-1.0.jar lib/javax.json.bind-api-1.
+ 0.jar lib/jboss-logging-3.3.1.Final.jar lib/microprofile-rest-client-
+ api-1.0.jar lib/javax.inject-1.jar lib/microprofile-config-api-1.1.ja
+ r lib/org.osgi.annotation.versioning-1.0.0.jar lib/resteasy-jackson2-
+ provider-3.5.0.Final.jar lib/jackson-core-2.9.4.jar lib/jackson-datab
+ ind-2.9.4.jar lib/jackson-annotations-2.9.4.jar lib/json-patch-1.3.ja
+ r lib/jackson-coreutils-1.0.jar lib/jackson-jaxrs-json-provider-2.9.4
+ .jar lib/jackson-jaxrs-base-2.9.4.jar lib/jackson-module-jaxb-annotat
+ ions-2.9.4.jar lib/resteasy-undertow-3.1.0.Final.jar lib/resteasy-cli
+ ent-3.1.0.Final.jar lib/resteasy-jaxrs-services-3.1.0.Final.jar lib/r
+ esteasy-cache-core-3.5.0.Final.jar lib/infinispan-core-8.2.8.Final.ja
+ r lib/infinispan-commons-8.2.8.Final.jar lib/jgroups-3.6.7.Final.jar 
+ lib/jboss-transaction-api_1.1_spec-1.0.1.Final.jar lib/jboss-marshall
+ ing-osgi-2.0.0.Beta3.jar lib/undertow-core-2.0.1.Final.jar lib/xnio-a
+ pi-3.3.8.Final.jar lib/xnio-nio-3.3.8.Final.jar lib/undertow-servlet-
+ 1.4.10.Final.jar lib/jboss-servlet-api_3.1_spec-1.0.0.Final.jar lib/g
+ uava-24.0-jre.jar lib/jsr305-1.3.9.jar lib/checker-compat-qual-2.0.0.
+ jar lib/error_prone_annotations-2.1.3.jar lib/j2objc-annotations-1.1.
+ jar lib/animal-sniffer-annotations-1.14.jar lib/commons-lang3-3.7.jar
+  lib/jedis-2.9.0.jar lib/commons-pool2-2.4.2.jar lib/hibernate-core-5
+ .2.10.Final.jar lib/hibernate-jpa-2.1-api-1.0.0.Final.jar lib/javassi
+ st-3.20.0-GA.jar lib/antlr-2.7.7.jar lib/jboss-transaction-api_1.2_sp
+ ec-1.0.1.Final.jar lib/jandex-2.0.3.Final.jar lib/classmate-1.3.0.jar
+  lib/dom4j-1.6.1.jar lib/hibernate-commons-annotations-5.0.1.Final.ja
+ r lib/h2-1.4.193.jar lib/jacoco-maven-plugin-0.8.0.jar lib/maven-plug
+ in-api-2.2.1.jar lib/maven-project-2.2.1.jar lib/maven-settings-2.2.1
+ .jar lib/maven-profile-2.2.1.jar lib/maven-model-2.2.1.jar lib/maven-
+ artifact-manager-2.2.1.jar lib/maven-repository-metadata-2.2.1.jar li
+ b/wagon-provider-api-1.0-beta-6.jar lib/backport-util-concurrent-3.1.
+ jar lib/maven-plugin-registry-2.2.1.jar lib/plexus-interpolation-1.11
+ .jar lib/maven-artifact-2.2.1.jar lib/plexus-container-default-1.0-al
+ pha-9-stable-1.jar lib/classworlds-1.1-alpha-2.jar lib/plexus-utils-3
+ .0.22.jar lib/file-management-1.2.1.jar lib/maven-shared-io-1.1.jar l
+ ib/maven-reporting-api-2.2.1.jar lib/doxia-sink-api-1.1.jar lib/doxia
+ -logging-api-1.1.jar lib/maven-reporting-impl-2.1.jar lib/doxia-core-
+ 1.1.2.jar lib/xercesImpl-2.8.1.jar lib/commons-lang-2.4.jar lib/commo
+ ns-httpclient-3.1.jar lib/doxia-site-renderer-1.1.2.jar lib/doxia-dec
+ oration-model-1.1.2.jar lib/doxia-module-xhtml-1.1.2.jar lib/doxia-mo
+ dule-fml-1.1.2.jar lib/plexus-i18n-1.0-beta-7.jar lib/plexus-velocity
+ -1.1.7.jar lib/velocity-1.5.jar lib/commons-collections-3.2.jar lib/c
+ ommons-validator-1.2.0.jar lib/commons-beanutils-1.7.0.jar lib/common
+ s-digester-1.6.jar lib/oro-2.0.8.jar lib/xml-apis-1.0.b2.jar lib/org.
+ jacoco.agent-0.8.0-runtime.jar lib/org.jacoco.core-0.8.0.jar lib/asm-
+ 6.0.jar lib/asm-commons-6.0.jar lib/asm-tree-6.0.jar lib/asm-analysis
+ -6.0.jar lib/asm-util-6.0.jar lib/org.jacoco.report-0.8.0.jar
+Build-Jdk: 1.8.0_171
+Created-By: Maven Integration for Eclipse
+Main-Class: com.revolut.cli.Runner
+
