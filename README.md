@@ -1,6 +1,8 @@
 # Introduction
 
-This project is built for Revolut's hometask.
+This project is built to showcase undertow framework.
+Its very good alternative of Spring Boot.
+No preinstall server required.  
 
 # [](https://github.com/ahmetuygun/bankDemo/blob/master/README.md#requirements)Requirements
 
